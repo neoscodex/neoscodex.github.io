@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>neoscodex</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="index.html">Home</a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html#five">Contact</a></li>
+							<li><a href="https://www.linkedin.com/in/alexander-st%C3%A4mmler-7518a1319/" class="icon brands fa-linkedin-in"></a></li>
+							<li><a href="https://github.com/neoscodex" class="icon brands fa-github"></a></li>
+							<li><a href="mailto:staemmler.alexander@web.de" class="icon solid fa-envelope"></a></li>
+						</ul>
+					</nav>
+				</header>
+				
+
+			<!-- Main -->
+				<div id="main" class="wrapper style1">
+					<div class="container">
+						<header class="major">
+							<h2>Eventtracker XIV</h2>
+							<p>Stay up to date with events from the game Final Fantasy XIV.</p>
+						</header>
+
+						<!-- Content -->
+							<section id="content">
+								<a href="#" class="image fit"><img src="images/p4pic01.png" alt="" /></a>
+								<h3>What is Eventtracker XIV?</h3>
+								<p>The critically acclaimed MMORPG Final Fantasy XIV is one of the most popular games of its genre. Sadly it lacks many quality of life features for its players, one of which is an intuitive way to check current or upcoming events. While the official website delivers posts on such events, they remain hard to find and do not provide any visual representation outside an event banner which contains the start and end dates. I, as a long standing fan, offer a simple solution with this project.</p>
+								<p>Eventtracker XIV is a passion project, which displays relevant event information from the official website such as name, duration and theme in an easy to understand  calendar format. Users have the ability to filter events by their type, display upcoming maintenance and read on for more information by following links back to the official website.</p>
+								<h3>Project Overview</h3>
+								<p>This application uses a community run api to retain data from Final Fantasies website The Loadstone and in addition parses certain data from The Loadstone directly. The backend has been written in Python, and fulfills 2 main functionalities. On one hand it filters the incoming data. Certain data,  such as dates, is only available in the form of an image. Which is why Eventtracker XIV also utilizes the open source optical character recognition software Tesseract. On the other hand it saves to and retrieves data from a MySQL Database.</p>
+								<p>Eventtracker XIV runs as an app using the Flask framework. The frontend uses plain HTML and JS to create a dynamic website. My responsibilities during this project included, but were not limited to:</p>
+								<ul>
+									<li>Designing the application</li>
+									<li>Finding solutions for and implementing data collection</li>
+									<li>Implementing Tesseract</li>
+									<li>Adding RegEx filters</li>
+									<li>Creating and implementing the database</li>
+									<li>Creating SQL commands in Python</li>
+									<li>Seting up Flask</li>
+									<li>Creating the HTML and CSS</li>
+									<li>Finding solutions for and implementing a dynamic calander in JS</li>
+									<li>Adding all remaining features</li>
+								</ul>
+							</section>
+
+					</div>
+				</div>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/alexander-st%C3%A4mmler-7518a1319/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/neoscodex" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="mailto:staemmler.alexander@web.de" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Alexander Stämmler</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li><a href="privacy-policy.html">Privacy Policy</a></li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
